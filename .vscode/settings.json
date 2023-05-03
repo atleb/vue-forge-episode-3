@@ -1,5 +1,6 @@
 {
   "dotenv.enableAutocloaking": false,
+  "editor.formatOnSave": true,
   "workbench.colorCustomizations": {
     "activityBar.background": "#129b48",
     "titleBar.activeBackground": "#07911a",
