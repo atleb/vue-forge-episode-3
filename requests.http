@@ -5,7 +5,7 @@ Authorization: Bearer {{$dotenv NUXT_OPENAI_API_KEY}}
 
 {
   "model": "gpt-3.5-turbo",
-  "messages": [{"role": "user", "content": "Say this is a test!"}],
+  "messages": [{"role": "user", "content": "tell me some advice for using api services in a nuxt application"}],
   "temperature": 0,
   "n": 1
 }
@@ -16,7 +16,7 @@ Content-Type: application/json
 Authorization: Bearer {{$dotenv NUXT_OPENAI_API_KEY}}
 
 {
-  "prompt": "a white siamese cat",
+  "prompt": "a corgi using a coffe grinder while two customers wait for service on the other side of the counter",
   "n": 1,
   "size": "1024x1024"
 }
