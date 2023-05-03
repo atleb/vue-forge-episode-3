@@ -17,16 +17,11 @@ const props = defineProps<{
         </div>
         <div className="chat-header">
             {{ message.userId }}
-            <time className="text-xs opacity-50">{{ message.createdAt }}</time>
+            <time className="text-xs opacity-50">{{
+                useTimeAgo(message?.createdAt).value
+            }}</time>
         </div>
         <div className="chat-bubble"> - {{ message.text }}</div>
     </div>
-    <!-- Code out the chatbox for Exercise 1 here
-    all the messages in the chatbox as chat bubbles
-    1. An image of the user
-  2. A relative time the message was sent (1 minute ago, just now, etc)
-  3. The name of the user who sent it 
-  4. The message text within the bubble
-    -->
 </template>
   
