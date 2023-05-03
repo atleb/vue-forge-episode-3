@@ -1,3 +1,8 @@
 {
-  "dotenv.enableAutocloaking": false
+  "dotenv.enableAutocloaking": true,
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#129b48",
+    "titleBar.activeBackground": "#07911a",
+    "titleBar.activeForeground": "#FBFCFF"
+  }
 }
